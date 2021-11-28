@@ -1,0 +1,25 @@
+@use '../util' as *;
+
+button {
+  border-radius: 2em;
+  padding: rem(12) rem(32);
+  border: 2px solid var(--grey);
+  background: var(--grey);
+
+  .card--orange & {
+    color: var(--orange);
+  }
+
+  .card--blue & {
+    color: var(--blue);
+  }
+
+  .card--green & {
+    color: var(--green);
+  }
+
+  &:hover {
+    background: transparent;
+    color: var(--grey);
+  }
+}

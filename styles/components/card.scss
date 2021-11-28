@@ -1,0 +1,33 @@
+@use '../util' as *;
+
+.card {
+  padding: rem(48);
+
+  &--orange {
+    background-color: var(--orange);
+  }
+
+  &--blue {
+    background-color: var(--blue);
+  }
+
+  &--green {
+    background-color: var(--green);
+  }
+
+  img {
+    margin-bottom: rem(35);
+  }
+
+  &__title {
+    margin-bottom: rem(25);
+  }
+
+  &__description {
+    margin-bottom: rem(25);
+
+    @include breakpoint(medium) {
+      margin-bottom: rem(83);
+    }
+  }
+}

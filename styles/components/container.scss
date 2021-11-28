@@ -1,0 +1,9 @@
+@use '../util' as *;
+
+.container {
+  display: block;
+
+  @include breakpoint(medium) {
+    display: flex;
+  }
+}
