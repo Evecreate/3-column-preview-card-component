@@ -5,3 +5,7 @@
   --white: hsla(0, 0%, 100%, 0.75);
   --grey: hsl(0, 0%, 95%);
 }
+
+body {
+  background: var(--grey);
+}
