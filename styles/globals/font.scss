@@ -1,0 +1,20 @@
+@use '../util' as *;
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: rem(40);
+  line-height: 1.2;
+  color: var(--grey);
+}
+
+p {
+  font-size: rem(15);
+  line-height: rem(25);
+}
